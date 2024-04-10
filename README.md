@@ -4,20 +4,22 @@
 >
 > Pour aller plus loin, vous pourrez créer des formulaires d'ajout, de modification et de suppression de certaines données (le stockage restant dans le local storage).
 
-## Données
+## Objectif
 
 On souhaite gérer des utilisateurs avec leur id, nom, prénom, identifiant (email), mot de passe (hashé), rôle (visiteur, gestionnaire, admin).
 
 Suivez les étapes suivantes :
 
+## Données
+
 - Créez un jeu de données de test (100) avec Mockaroo ou équivalent. Attention, pas d'accent, de caractères spéciaux ou d'espaces dans les noms de champs !
-- Exporter ces données dans un fichier au format json.
+- Exporter ces données dans un fichier au format json et stockez ce fichier dans un dossier *datas*.
 
 ## Affichage
 
 - Créez votre boilerplate d'application.
 - Créez une interface avec un menu top (Accueil, Admin) et un corps de page.
-- Récupérez les données du fichier json avec fetch.
+- Dans un module Javascript, récupérez les données du fichier json avec fetch => vérifiez dans la console. Jetez un coup d'oeil dans l'onglet Network des outils de développement du navigateur.
 - Page Accueil : afficher toutes les données (sauf les mots de passe) sous forme de table (ajoutez un peu de Css ou utilisez une librairie).
 
 ## Local storage
